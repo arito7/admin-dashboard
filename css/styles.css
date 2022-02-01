@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: ubuntu;
-  src: url(/fonts/Ubuntu-Regular.ttf);
+  src: url(../fonts/Ubuntu-Regular.ttf);
 }
 
 * {
@@ -97,7 +97,7 @@ img.profile {
 }
 
 .icon-btn.search {
-  background-image: url(/imgs/search.svg);
+  background-image: url(../imgs/search.svg);
 }
 .header-top > input[type="search"] {
   background-color: var(--search-bar-bg);
@@ -108,7 +108,7 @@ img.profile {
 }
 
 .icon-btn.notification {
-  background-image: url(/imgs/notifications.svg);
+  background-image: url(../imgs/notifications.svg);
 }
 
 .header-bottom {
@@ -167,31 +167,31 @@ img.profile {
   text-align: center;
 }
 .icon-btn.home {
-  background-image: url(/imgs/home.svg);
+  background-image: url(../imgs/home.svg);
 }
 .icon-btn.profile {
-  background-image: url(/imgs/profile.svg);
+  background-image: url(../imgs/profile.svg);
 }
 .icon-btn.messages {
-  background-image: url(/imgs/messages.svg);
+  background-image: url(../imgs/messages.svg);
 }
 .icon-btn.history {
-  background-image: url(/imgs/history.svg);
+  background-image: url(../imgs/history.svg);
 }
 .icon-btn.tasks {
-  background-image: url(/imgs/tasks.svg);
+  background-image: url(../imgs/tasks.svg);
 }
 .icon-btn.community {
-  background-image: url(/imgs/community.svg);
+  background-image: url(../imgs/community.svg);
 }
 .icon-btn.settings {
-  background-image: url(/imgs/settings.svg);
+  background-image: url(../imgs/settings.svg);
 }
 .icon-btn.support {
-  background-image: url(/imgs/support.svg);
+  background-image: url(../imgs/support.svg);
 }
 .icon-btn.privacy {
-  background-image: url(/imgs/privacy.svg);
+  background-image: url(../imgs/privacy.svg);
 }
 
 .sidebar-header {
@@ -272,13 +272,13 @@ img.profile {
 }
 
 .icon-btn.fav {
-  background-image: url(/imgs/favorite.svg);
+  background-image: url(../imgs/favorite.svg);
 }
 .icon-btn.watch {
-  background-image: url(/imgs/watch.svg);
+  background-image: url(../imgs/watch.svg);
 }
 .icon-btn.share {
-  background-image: url(/imgs/share.svg);
+  background-image: url(../imgs/share.svg);
 }
 
 .announcements-container {

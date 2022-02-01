@@ -4,73 +4,81 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
     <title>Admin Dashboard</title>
   </head>
   <body>
     <div class="container">
       <div class="header">
-        <ul class="search">
-          <li>
-            <img src="#" alt="Search" />
-          </li>
-          <li>
-            <input type="search" name="search" id="search" />
-          </li>
-          <li>
-            <img src="#" alt="Notifications" />
-          </li>
-          <li>
-            <img src="#" alt="Profile Picture" />
-          </li>
-          <li>
-            <span>Morgan Oakley</span>
-          </li>
-        </ul>
+        <div class="header-top">
+          <button class="icon-btn search"></button>
+          <input type="search" name="search" id="search" />
+          <button class="icon-btn notification"></button>
+          <img class="profile" src="/imgs/profile.jpg" alt="Profile Picture" />
+          <span class="username bold">Morgan Oakley</span>
+        </div>
 
-        <ul class="user">
-          <li>
-            <img src="#" alt="Profile Picture" />
-          </li>
-          <li class="greeting">
-            <span>Hi there,</span>
-            <span class="name bold">Morgan Oakley (@morgan)</span>
-          </li>
-          <li>
-            <button class="bold">New</button>
-          </li>
-          <li>
-            <button class="bold">Upload</button>
-          </li>
-          <li>
-            <button class="bold">Share</button>
-          </li>
-        </ul>
+        <div class="header-bottom">
+          <img class="profile" src="/imgs/profile.jpg" alt="Profile Picture" />
+          <span class="greeting bold">Hi there,</span>
+          <span class="username bold">Morgan Oakley (@morgan)</span>
+          <button class="bold">New</button>
+          <button class="bold">Upload</button>
+          <button class="bold">Share</button>
+        </div>
       </div>
 
       <div class="sidebar bold">
         <div class="sidebar-header">
-          <img src="#" alt="Dashboard Icon" />
+          <img
+            class="dashboard-icon"
+            src="/imgs/dashboard.svg"
+            alt="Dashboard Icon"
+          />
           <h2>Dashboard</h2>
         </div>
         <ul class="nav">
           <li>
-            <img src="#" alt="" />
+            <button class="icon-btn home"></button>
             <span>Home</span>
           </li>
           <li>
-            <img src="#" alt="" />
+            <button class="icon-btn profile"></button>
             <span>Profile</span>
           </li>
-          <li><img src="#" alt="" /> <span>Messages</span></li>
-          <li><img src="#" alt="" /> <span>History</span></li>
-          <li><img src="#" alt="" /> <span>Tasks</span></li>
-          <li><img src="#" alt="" /> <span>Communities</span></li>
+
+          <li>
+            <button class="icon-btn messages"></button>
+            <span>Messages</span>
+          </li>
+          <li>
+            <button class="icon-btn history"></button>
+            <span>History</span>
+          </li>
+
+          <li>
+            <button class="icon-btn tasks"></button>
+            <span>Tasks</span>
+          </li>
+
+          <li>
+            <button class="icon-btn community"></button>
+            <span>Communities</span>
+          </li>
         </ul>
         <ul class="options">
-          <li><img src="#" alt="" /><span>Settings</span></li>
-          <li><img src="#" alt="" /><span>Support</span></li>
-          <li><img src="#" alt="" /><span>Privacy</span></li>
+          <li>
+            <button class="icon-btn settings"></button>
+            <span>Settings</span>
+          </li>
+          <li>
+            <button class="icon-btn support"></button>
+            <span>Support</span>
+          </li>
+          <li>
+            <button class="icon-btn privacy"></button>
+            <span>Privacy</span>
+          </li>
         </ul>
       </div>
 
@@ -78,133 +86,130 @@
         <div class="projects-container">
           <h3 class="bold section-title">Your Projects</h3>
           <ul class="projects">
-            <li class="project-card">
+            <li class="project card">
               <h5 class="project-title bold">Super Cool Project</h5>
               <p class="project-desc">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
                 placeat dolores dolorem eveniet ex corporis et nam maiores vero
                 dicta!
               </p>
-              <button class="btn-fav">Fav</button>
-              <button class="btn-watch">Watch</button>
-              <button class="btn-fork">Fork</button>
+              <button class="icon-btn fav"></button>
+              <button class="icon-btn watch"></button>
+              <button class="icon-btn share"></button>
             </li>
 
-            <li class="project-card">
+            <li class="project card">
               <h5 class="project-title bold">Less Cool Project</h5>
               <p class="project-desc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptates rerum ullam iure reiciendis porro laboriosam dolores
                 dolore id accusamus repellat.
               </p>
-              <button class="btn-fav">Fav</button>
-              <button class="btn-watch">Watch</button>
-              <button class="btn-fork">Fork</button>
+              <button class="icon-btn fav"></button>
+              <button class="icon-btn watch"></button>
+              <button class="icon-btn share"></button>
             </li>
 
-            <li class="project-card">
+            <li class="project card">
               <h5 class="project-title bold">Impossible App</h5>
               <p class="project-desc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
                 sit blanditiis ipsum saepe, itaque laboriosam officia tenetur
                 aperiam! Corporis, facere!
               </p>
-              <button class="btn-fav">Fav</button>
-              <button class="btn-watch">Watch</button>
-              <button class="btn-fork">Fork</button>
+              <button class="icon-btn fav"></button>
+              <button class="icon-btn watch"></button>
+              <button class="icon-btn share"></button>
             </li>
 
-            <li class="project-card">
+            <li class="project card">
               <h5 class="project-title bold">Easy Peasy App</h5>
               <p class="project-desc">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
                 corrupti itaque laboriosam ipsa rem quo deserunt modi delectus
                 vero ipsum?
               </p>
-              <button class="btn-fav">Fav</button>
-              <button class="btn-watch">Watch</button>
-              <button class="btn-fork">Fork</button>
+              <button class="icon-btn fav"></button>
+              <button class="icon-btn watch"></button>
+              <button class="icon-btn share"></button>
             </li>
 
-            <li class="project-card">
+            <li class="project card">
               <h5 class="project-title bold">Ad Blocker</h5>
               <p class="project-desc">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est
                 alias saepe dolor quidem ducimus sapiente commodi voluptate unde
                 rerum beatae.
               </p>
-              <button class="btn-fav">Fav</button>
-              <button class="btn-watch">Watch</button>
-              <button class="btn-fork">Fork</button>
+              <button class="icon-btn fav"></button>
+              <button class="icon-btn watch"></button>
+              <button class="icon-btn share"></button>
             </li>
 
-            <li class="project-card">
+            <li class="project card">
               <h5 class="project-title bold">Money Maker</h5>
               <p class="project-desc">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
                 eum voluptas nesciunt neque magnam laudantium est harum deserunt
                 a dicta!
               </p>
-              <button class="btn-fav">Fav</button>
-              <button class="btn-watch">Watch</button>
-              <button class="btn-fork">Fork</button>
+              <button class="icon-btn fav"></button>
+              <button class="icon-btn watch"></button>
+              <button class="icon-btn share"></button>
             </li>
           </ul>
         </div>
 
-        <div class="announcements">
+        <div class="announcements-container">
           <h3 class="bold section-title">Announcements</h3>
-          <div>
-            <ul>
-              <li>
-                <h5 class="bold">Site Maintenance</h5>
-                <p>
-                  Vestibulum condimentum tellus lacus, in accumsan elit maximus
-                  ac. Donec hendrerit sodals congue...
-                </p>
-              </li>
-              <hr />
-              <li>
-                <h5 class="bold">Site Maintenance</h5>
-                <p>
-                  Nam vel lectus tincidunt, rutrum nulla eu, ornare libero.
-                  Aliquam dictum accumsan porttitor...
-                </p>
-              </li>
-              <hr />
-              <li>
-                <h5 class="bold">Site Maintenance</h5>
-                <p>
-                  Phasellus efficitur nisi eget elit consectetur, eget
-                  condimentum ante auctor. Cras fringilla sagittis sem in
-                  mattis...
-                </p>
-              </li>
-            </ul>
-          </div>
+          <ul class="announcements card">
+            <li class="announcement">
+              <h5 class="bold">Site Maintenance</h5>
+              <p>
+                Vestibulum condimentum tellus lacus, in accumsan elit maximus
+                ac. Donec hendrerit sodals congue...
+              </p>
+            </li>
+            <hr />
+            <li class="announcement">
+              <h5 class="bold">Site Maintenance</h5>
+              <p>
+                Nam vel lectus tincidunt, rutrum nulla eu, ornare libero.
+                Aliquam dictum accumsan porttitor...
+              </p>
+            </li>
+            <hr />
+            <li class="announcement">
+              <h5 class="bold">Site Maintenance</h5>
+              <p>
+                Phasellus efficitur nisi eget elit consectetur, eget condimentum
+                ante auctor. Cras fringilla sagittis sem in mattis...
+              </p>
+            </li>
+          </ul>
         </div>
 
         <div class="trending-container">
           <h3 class="bold section-title">Trending</h3>
-          <ul class="trending-items">
+          <ul class="trending-items card">
             <li class="trending-item">
-              <img src="#" alt="" class="profile-img" />
-              <span class="username">@tegan</span>
+              <img src="/imgs/profile.jpg" alt="" class="profile" />
+              <span class="username bold">@tegan</span>
               <span class="project-name">World Peace Builder</span>
             </li>
             <li class="trending-item">
-              <img src="" alt="" class="profile-img" />
-              <span class="username">@morgan</span>
+              <img src="/imgs/profile.jpg" alt="" class="profile" />
+              <span class="username bold">@morgan</span>
               <span class="project-name">Super Cool Project</span>
             </li>
             <li class="trending-item">
-              <img src="" alt="" class="profile-img" />
-              <span class="username"> @kendall</span>
+              <img src="/imgs/profile.jpg" alt="" class="profile" />
+              <span class="username bold"> @kendall</span>
               <span class="project-name">Life Changing App</span>
             </li>
             <li class="trending-item">
-              <img src="" alt="" class="profile-img" />
-              <span class="username">@alex</span>
+              <img src="/imgs/profile.jpg" alt="" class="profile" />
+              <span class="username bold">@alex</span>
               <span class="project-name">No Traffic Marker</span>
             </li>
           </ul>
